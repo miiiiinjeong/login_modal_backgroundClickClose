@@ -9,7 +9,7 @@ body .modal-wrap {
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
   z-index: 99999;
-  cursor: url("../images/custom.svg"), auto;
+  cursor: url("../images/close.png"), auto;
 }
 body .modal-wrap .modal-main {
   position: absolute;
