@@ -6,51 +6,26 @@
     <title>loginModal</title>
     <link rel="stylesheet" href="css/main.css">
     <style>
-        .login{
-            width: 100px;
-            height: 50px;
-            background-color: powderblue;
-            text-align: center;
-            line-height: 50px;
-            font-size: 20px;
-            border-radius: 10px;
-        }
-        .login:hover{
+        .m-login:hover{
             background-color: darkblue;
             color: #fff;
             cursor: pointer;
-        }
-        .modal-wrap{
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            z-index: 99999;
-            /* cursor: url('../images/custom.svg'), auto; */
-        }
-        .modal-main{
-            position: absolute;
-            width: 1200px;
-            height: 600px;
-            border-radius: 30px;
-            background-color: #fff;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            cursor: default;
         }
     </style>
 </head>
 <body>
     <div class="modal-wrap">
         <div class="modal-main">
-            <p class="modal-notice">
-                login
-            </p>
+            <div class="modal-notice">
+                <div class="login"></div>
+                <div class="sign-up"></div>
+            </div>
+            <div class="cover-button">
+                <div class="sign-up-button"></div>
+                <div class="login-button"></div>
+            </div>
         </div>
     </div>
-    <div class="login">login</div>
+    <div class="m-login">login</div>
 </body>
 </html>
